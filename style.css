@@ -60,7 +60,7 @@ body {
 }
 
 .card {
-  width: 22rem;
+  width: min(22rem, 100%);
   background: white;
   border-radius: var(--card-radius);
 
@@ -81,7 +81,6 @@ body {
   .card-title {
     font-weight: var(--font-bold);
     text-align: center;
-    font-size: var(--base-font);
     font-size: 1.3rem;
     color: var(--Blue-950);
     /* margin-block: 0.5rem; */
